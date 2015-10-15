@@ -1,0 +1,223 @@
+2015-10-05 15:27:49,291 INFO  [Log] Inside Test Setup 
+2015-10-05 15:27:50,908 INFO  [Log] Current URL : http://spi.tts.local/ 
+2015-10-05 15:27:50,909 INFO  [Log]  
+2015-10-05 15:27:50,921 INFO  [Log] _________________________________________________________________________________________ 
+2015-10-05 15:27:50,921 INFO  [Log]  
+2015-10-05 15:27:50,921 INFO  [Log] ------R--U--N--N--I--N--G--------SanityTotalData_02 ------------------------------------ 
+2015-10-05 15:27:50,921 INFO  [Log] __________________________________________________________________________________________ 
+2015-10-05 15:27:50,921 INFO  [Log]  
+2015-10-05 15:27:51,590 INFO  [Log] Query Entered : Total Samples by Sanity Source ID.  
+2015-10-05 15:27:51,991 WARN  [Log] TEST FAIL 
+2015-10-05 15:27:52,045 INFO  [Log] Actual: No entries found, Expected : 33 
+2015-10-05 15:27:52,104 INFO  [Log] Inside Test Cleanup 
+2015-10-05 15:27:52,104 INFO  [Log] . 
+2015-10-05 15:27:52,104 INFO  [Log] . 
+2015-10-05 15:27:52,104 INFO  [Log] . 
+2015-10-05 15:27:54,281 INFO  [Log] Inside Test Setup 
+2015-10-05 15:27:55,947 INFO  [Log] Current URL : http://spi.tts.local/samples?utf8=%E2%9C%93&st=search&search%5Bquery%5D=source.source_id%3A%22S9223370614536616013%22&search%5Bfirst_seen_from%5D=&search%5Bfirst_seen_to%5D=&search%5Blast_seen_from%5D=&search%5Blast_seen_to%5D=&search%5Bwhite%5D=don%27t+care&search%5Bdet_threattrack%5D=don%27t+care&search%5Bdet_threattrack_nobl%5D=don%27t+care&commit=Search 
+2015-10-05 15:27:55,948 INFO  [Log]  
+2015-10-05 15:27:55,954 INFO  [Log] _________________________________________________________________________________________ 
+2015-10-05 15:27:55,954 INFO  [Log]  
+2015-10-05 15:27:55,954 INFO  [Log] ------R--U--N--N--I--N--G--------VerifyMenuLinks_01------------------------------------ 
+2015-10-05 15:27:55,954 INFO  [Log] __________________________________________________________________________________________ 
+2015-10-05 15:27:55,954 INFO  [Log]  
+2015-10-05 15:27:56,058 INFO  [Log] Page Title : Samples - SPI 
+2015-10-05 15:27:56,061 INFO  [Log] Page url : http://spi.tts.local/samples?utf8=%E2%9C%93&st=search&search%5Bquery%5D=source.source_id%3A%22S9223370614536616013%22&search%5Bfirst_seen_from%5D=&search%5Bfirst_seen_to%5D=&search%5Blast_seen_from%5D=&search%5Blast_seen_to%5D=&search%5Bwhite%5D=don%27t+care&search%5Bdet_threattrack%5D=don%27t+care&search%5Bdet_threattrack_nobl%5D=don%27t+care&commit=Search 
+2015-10-05 15:27:56,133 INFO  [Log] Inside Test Cleanup 
+2015-10-05 15:27:56,133 INFO  [Log] . 
+2015-10-05 15:27:56,133 INFO  [Log] . 
+2015-10-05 15:27:56,133 INFO  [Log] . 
+2015-10-05 15:27:58,307 INFO  [Log] Inside Test Setup 
+2015-10-05 15:27:59,899 INFO  [Log] Current URL : http://spi.tts.local/samples?utf8=%E2%9C%93&st=search&search%5Bquery%5D=source.source_id%3A%22S9223370614536616013%22&search%5Bfirst_seen_from%5D=&search%5Bfirst_seen_to%5D=&search%5Blast_seen_from%5D=&search%5Blast_seen_to%5D=&search%5Bwhite%5D=don%27t+care&search%5Bdet_threattrack%5D=don%27t+care&search%5Bdet_threattrack_nobl%5D=don%27t+care&commit=Search 
+2015-10-05 15:27:59,899 INFO  [Log]  
+2015-10-05 15:27:59,904 INFO  [Log] _________________________________________________________________________________________ 
+2015-10-05 15:27:59,904 INFO  [Log]  
+2015-10-05 15:27:59,904 INFO  [Log] ------R--U--N--N--I--N--G--------VerifyMenuLinks_01------------------------------------ 
+2015-10-05 15:27:59,904 INFO  [Log] __________________________________________________________________________________________ 
+2015-10-05 15:27:59,904 INFO  [Log]  
+2015-10-05 15:28:00,006 INFO  [Log] Page Title : Samples - SPI 
+2015-10-05 15:28:00,010 INFO  [Log] Page url : http://spi.tts.local/samples?utf8=%E2%9C%93&st=search&search%5Bquery%5D=source.source_id%3A%22S9223370614536616013%22&search%5Bfirst_seen_from%5D=&search%5Bfirst_seen_to%5D=&search%5Blast_seen_from%5D=&search%5Blast_seen_to%5D=&search%5Bwhite%5D=don%27t+care&search%5Bdet_threattrack%5D=don%27t+care&search%5Bdet_threattrack_nobl%5D=don%27t+care&commit=Search 
+2015-10-05 15:28:00,066 INFO  [Log] Inside Test Cleanup 
+2015-10-05 15:28:00,067 INFO  [Log] . 
+2015-10-05 15:28:00,067 INFO  [Log] . 
+2015-10-05 15:28:00,067 INFO  [Log] . 
+2015-10-05 15:32:42,711 INFO  [Log] Inside Test Setup 
+2015-10-05 15:32:44,930 INFO  [Log] Current URL : http://spi.tts.local/ 
+2015-10-05 15:32:44,930 INFO  [Log]  
+2015-10-05 15:32:44,941 INFO  [Log] _________________________________________________________________________________________ 
+2015-10-05 15:32:44,941 INFO  [Log]  
+2015-10-05 15:32:44,941 INFO  [Log] ------R--U--N--N--I--N--G--------SanityTotalData_02 ------------------------------------ 
+2015-10-05 15:32:44,941 INFO  [Log] __________________________________________________________________________________________ 
+2015-10-05 15:32:44,941 INFO  [Log]  
+2015-10-05 15:32:45,587 INFO  [Log] Query Entered : Total Samples by Sanity Source ID.  
+2015-10-05 15:32:46,003 WARN  [Log] TEST FAIL 
+2015-10-05 15:32:46,057 INFO  [Log] Actual: No entries found, Expected : 33 
+2015-10-05 15:32:47,190 INFO  [Log] Inside Test Cleanup 
+2015-10-05 15:32:47,190 INFO  [Log] . 
+2015-10-05 15:32:47,190 INFO  [Log] . 
+2015-10-05 15:32:47,190 INFO  [Log] . 
+2015-10-05 15:32:49,356 INFO  [Log] Inside Test Setup 
+2015-10-05 15:32:51,988 INFO  [Log] Inside Test Cleanup 
+2015-10-05 15:32:51,988 INFO  [Log] . 
+2015-10-05 15:32:51,988 INFO  [Log] . 
+2015-10-05 15:32:51,988 INFO  [Log] . 
+2015-10-05 15:32:51,991 INFO  [Log] Inside Test Cleanup 
+2015-10-05 15:32:51,991 INFO  [Log] . 
+2015-10-05 15:32:51,991 INFO  [Log] . 
+2015-10-05 15:32:51,991 INFO  [Log] . 
+2015-10-05 15:45:30,277 INFO  [Log] Inside Test Setup 
+2015-10-05 15:45:31,929 INFO  [Log] Current URL : http://spi.tts.local/ 
+2015-10-05 15:45:31,929 INFO  [Log]  
+2015-10-05 15:45:31,940 INFO  [Log] _________________________________________________________________________________________ 
+2015-10-05 15:45:31,940 INFO  [Log]  
+2015-10-05 15:45:31,940 INFO  [Log] ------R--U--N--N--I--N--G--------SanityTotalData_02 ------------------------------------ 
+2015-10-05 15:45:31,940 INFO  [Log] __________________________________________________________________________________________ 
+2015-10-05 15:45:31,940 INFO  [Log]  
+2015-10-05 15:45:32,220 INFO  [Log] Query Entered : Total Samples by Sanity Source ID.  
+2015-10-05 15:45:32,648 WARN  [Log] TEST FAIL 
+2015-10-05 15:45:32,709 INFO  [Log] Actual: No entries found, Expected : 33 
+2015-10-05 15:45:33,853 INFO  [Log] Inside Test Cleanup 
+2015-10-05 15:45:33,853 INFO  [Log] . 
+2015-10-05 15:45:33,853 INFO  [Log] . 
+2015-10-05 15:45:33,853 INFO  [Log] . 
+2015-10-05 15:45:36,035 INFO  [Log] Inside Test Setup 
+2015-10-05 15:45:38,675 INFO  [Log] Inside Test Cleanup 
+2015-10-05 15:45:38,675 INFO  [Log] . 
+2015-10-05 15:45:38,675 INFO  [Log] . 
+2015-10-05 15:45:38,675 INFO  [Log] . 
+2015-10-05 15:45:38,678 INFO  [Log] Inside Test Cleanup 
+2015-10-05 15:45:38,678 INFO  [Log] . 
+2015-10-05 15:45:38,678 INFO  [Log] . 
+2015-10-05 15:45:38,678 INFO  [Log] . 
+2015-10-05 15:52:13,963 INFO  [Log] Inside Test Setup 
+2015-10-05 15:52:15,558 INFO  [Log] Current URL : http://spi.tts.local/ 
+2015-10-05 15:52:15,558 INFO  [Log]  
+2015-10-05 15:52:15,571 INFO  [Log] _________________________________________________________________________________________ 
+2015-10-05 15:52:15,571 INFO  [Log]  
+2015-10-05 15:52:15,571 INFO  [Log] ------R--U--N--N--I--N--G--------SanityTotalData_02 ------------------------------------ 
+2015-10-05 15:52:15,571 INFO  [Log] __________________________________________________________________________________________ 
+2015-10-05 15:52:15,571 INFO  [Log]  
+2015-10-05 15:52:15,853 INFO  [Log] Query Entered : Total Samples by Sanity Source ID.  
+2015-10-05 15:52:16,303 WARN  [Log] TEST FAIL 
+2015-10-05 15:52:16,380 INFO  [Log] Actual: No entries found, Expected : 33 
+2015-10-05 15:52:17,532 INFO  [Log] Inside Test Cleanup 
+2015-10-05 15:52:17,532 INFO  [Log] . 
+2015-10-05 15:52:17,532 INFO  [Log] . 
+2015-10-05 15:52:17,532 INFO  [Log] . 
+2015-10-05 15:52:19,737 INFO  [Log] Inside Test Setup 
+2015-10-05 15:52:22,387 INFO  [Log] Inside Test Cleanup 
+2015-10-05 15:52:22,387 INFO  [Log] . 
+2015-10-05 15:52:22,387 INFO  [Log] . 
+2015-10-05 15:52:22,387 INFO  [Log] . 
+2015-10-05 15:52:22,390 INFO  [Log] Inside Test Cleanup 
+2015-10-05 15:52:22,390 INFO  [Log] . 
+2015-10-05 15:52:22,390 INFO  [Log] . 
+2015-10-05 15:52:22,390 INFO  [Log] . 
+2015-10-06 10:11:39,526 INFO  [Log] Inside Test Setup 
+2015-10-06 10:11:41,281 INFO  [Log] Current URL : http://spi.tts.local/ 
+2015-10-06 10:11:41,281 INFO  [Log]  
+2015-10-06 10:11:41,291 INFO  [Log] _________________________________________________________________________________________ 
+2015-10-06 10:11:41,291 INFO  [Log]  
+2015-10-06 10:11:41,291 INFO  [Log] ------R--U--N--N--I--N--G--------SanityTotalData_02 ------------------------------------ 
+2015-10-06 10:11:41,291 INFO  [Log] __________________________________________________________________________________________ 
+2015-10-06 10:11:41,291 INFO  [Log]  
+2015-10-06 10:11:41,552 INFO  [Log] Query Entered : Total Samples by Sanity Source ID.  
+2015-10-06 10:11:42,403 WARN  [Log] TEST FAIL 
+2015-10-06 10:11:42,449 INFO  [Log] Actual: No entries found, Expected : 33 
+2015-10-06 10:11:43,578 INFO  [Log] Inside Test Cleanup 
+2015-10-06 10:11:43,578 INFO  [Log] . 
+2015-10-06 10:11:43,578 INFO  [Log] . 
+2015-10-06 10:11:43,578 INFO  [Log] . 
+2015-10-06 10:11:45,249 INFO  [Log] Inside Test Setup 
+2015-10-06 10:11:47,872 INFO  [Log] Inside Test Cleanup 
+2015-10-06 10:11:47,872 INFO  [Log] . 
+2015-10-06 10:11:47,872 INFO  [Log] . 
+2015-10-06 10:11:47,872 INFO  [Log] . 
+2015-10-06 10:11:47,875 INFO  [Log] Inside Test Cleanup 
+2015-10-06 10:11:47,875 INFO  [Log] . 
+2015-10-06 10:11:47,875 INFO  [Log] . 
+2015-10-06 10:11:47,875 INFO  [Log] . 
+2015-10-06 10:26:00,394 INFO  [Log] Inside Test Setup 
+2015-10-06 10:26:02,184 INFO  [Log] Current URL : http://spi.tts.local/ 
+2015-10-06 10:26:02,185 INFO  [Log]  
+2015-10-06 10:26:02,197 INFO  [Log] _________________________________________________________________________________________ 
+2015-10-06 10:26:02,197 INFO  [Log]  
+2015-10-06 10:26:02,197 INFO  [Log] ------R--U--N--N--I--N--G--------SanityTotalData_02 ------------------------------------ 
+2015-10-06 10:26:02,197 INFO  [Log] __________________________________________________________________________________________ 
+2015-10-06 10:26:02,197 INFO  [Log]  
+2015-10-06 10:26:02,848 INFO  [Log] Query Entered : Total Samples by Sanity Source ID.  
+2015-10-06 10:26:03,303 WARN  [Log] TEST FAIL 
+2015-10-06 10:26:03,391 INFO  [Log] Actual: No entries found, Expected : 33 
+2015-10-06 10:26:04,538 INFO  [Log] Inside Test Cleanup 
+2015-10-06 10:26:04,538 INFO  [Log] . 
+2015-10-06 10:26:04,538 INFO  [Log] . 
+2015-10-06 10:26:04,538 INFO  [Log] . 
+2015-10-06 10:34:28,557 INFO  [Log] Inside Test Setup 
+2015-10-06 10:34:30,226 INFO  [Log] Current URL : http://spi.tts.local/ 
+2015-10-06 10:34:30,226 INFO  [Log]  
+2015-10-06 10:34:30,237 INFO  [Log] _________________________________________________________________________________________ 
+2015-10-06 10:34:30,237 INFO  [Log]  
+2015-10-06 10:34:30,237 INFO  [Log] ------R--U--N--N--I--N--G--------SanityTotalData_02 ------------------------------------ 
+2015-10-06 10:34:30,237 INFO  [Log] __________________________________________________________________________________________ 
+2015-10-06 10:34:30,237 INFO  [Log]  
+2015-10-06 10:34:30,844 INFO  [Log] Query Entered : Total Samples by Sanity Source ID.  
+2015-10-06 10:34:31,437 WARN  [Log] TEST FAIL 
+2015-10-06 10:34:31,490 INFO  [Log] Actual: No entries found, Expected : 33 
+2015-10-06 10:34:32,655 INFO  [Log] Inside Test Cleanup 
+2015-10-06 10:34:32,655 INFO  [Log] . 
+2015-10-06 10:34:32,655 INFO  [Log] . 
+2015-10-06 10:34:32,655 INFO  [Log] . 
+2015-10-06 10:34:34,843 INFO  [Log] Inside Test Setup 
+2015-10-06 10:34:37,473 INFO  [Log] Inside Test Cleanup 
+2015-10-06 10:34:37,473 INFO  [Log] . 
+2015-10-06 10:34:37,473 INFO  [Log] . 
+2015-10-06 10:34:37,473 INFO  [Log] . 
+2015-10-06 10:34:37,478 INFO  [Log] Inside Test Cleanup 
+2015-10-06 10:34:37,478 INFO  [Log] . 
+2015-10-06 10:34:37,478 INFO  [Log] . 
+2015-10-06 10:34:37,478 INFO  [Log] . 
+2015-10-06 10:37:08,591 INFO  [Log] Inside Test Setup 
+2015-10-06 10:37:10,152 INFO  [Log] Current URL : http://spi.tts.local/ 
+2015-10-06 10:37:10,152 INFO  [Log]  
+2015-10-06 10:37:10,163 INFO  [Log] _________________________________________________________________________________________ 
+2015-10-06 10:37:10,163 INFO  [Log]  
+2015-10-06 10:37:10,163 INFO  [Log] ------R--U--N--N--I--N--G--------SanityTotalData_02 ------------------------------------ 
+2015-10-06 10:37:10,163 INFO  [Log] __________________________________________________________________________________________ 
+2015-10-06 10:37:10,163 INFO  [Log]  
+2015-10-06 10:37:10,534 INFO  [Log] Query Entered : Total Samples by Sanity Source ID.  
+2015-10-06 10:37:11,591 WARN  [Log] TEST FAIL 
+2015-10-06 10:37:11,635 INFO  [Log] Actual: No entries found, Expected : 33 
+2015-10-06 10:37:12,761 INFO  [Log] Inside Test Cleanup 
+2015-10-06 10:37:12,761 INFO  [Log] . 
+2015-10-06 10:37:12,761 INFO  [Log] . 
+2015-10-06 10:37:12,761 INFO  [Log] . 
+2015-10-06 10:37:14,455 INFO  [Log] Inside Test Setup 
+2015-10-06 10:37:17,137 INFO  [Log] Inside Test Cleanup 
+2015-10-06 10:37:17,137 INFO  [Log] . 
+2015-10-06 10:37:17,137 INFO  [Log] . 
+2015-10-06 10:37:17,137 INFO  [Log] . 
+2015-10-06 10:37:17,140 INFO  [Log] Inside Test Cleanup 
+2015-10-06 10:37:17,140 INFO  [Log] . 
+2015-10-06 10:37:17,140 INFO  [Log] . 
+2015-10-06 10:37:17,140 INFO  [Log] . 
+2015-10-06 13:30:15,550 INFO  [Log] Inside Test Setup 
+2015-10-06 13:30:17,095 INFO  [Log] Current URL : http://spi.tts.local/ 
+2015-10-06 13:30:17,095 INFO  [Log]  
+2015-10-06 13:30:17,105 INFO  [Log] _________________________________________________________________________________________ 
+2015-10-06 13:30:17,106 INFO  [Log]  
+2015-10-06 13:30:17,106 INFO  [Log] ------R--U--N--N--I--N--G--------SanityTotalData_02 ------------------------------------ 
+2015-10-06 13:30:17,106 INFO  [Log] __________________________________________________________________________________________ 
+2015-10-06 13:30:17,106 INFO  [Log]  
+2015-10-06 13:30:18,198 INFO  [Log] Inside Test Cleanup 
+2015-10-06 13:30:18,198 INFO  [Log] . 
+2015-10-06 13:30:18,198 INFO  [Log] . 
+2015-10-06 13:30:18,198 INFO  [Log] . 
+2015-10-06 13:30:20,385 INFO  [Log] Inside Test Setup 
+2015-10-06 13:30:23,011 INFO  [Log] Inside Test Cleanup 
+2015-10-06 13:30:23,011 INFO  [Log] . 
+2015-10-06 13:30:23,011 INFO  [Log] . 
+2015-10-06 13:30:23,011 INFO  [Log] . 
+2015-10-06 13:30:23,014 INFO  [Log] Inside Test Cleanup 
+2015-10-06 13:30:23,014 INFO  [Log] . 
+2015-10-06 13:30:23,014 INFO  [Log] . 
+2015-10-06 13:30:23,014 INFO  [Log] . 

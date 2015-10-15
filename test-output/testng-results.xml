@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="1" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SPI_SanityTestSuite1" duration-ms="10168" started-at="2015-10-06T17:30:12Z" finished-at="2015-10-06T17:30:23Z">
+    <groups>
+    </groups>
+    <test name="Regression1" duration-ms="10168" started-at="2015-10-06T17:30:12Z" finished-at="2015-10-06T17:30:23Z">
+      <class name="spi.prod.testcases.FailTestCaseExample">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:spi.prod.testcases.FailTestCaseExample@129a8472]" name="beforeMethod" is-config="true" duration-ms="4237" started-at="2015-10-06T13:30:12Z" finished-at="2015-10-06T13:30:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="run()[pri:0, instance:spi.prod.testcases.FailTestCaseExample@129a8472]" name="run" duration-ms="14" started-at="2015-10-06T13:30:17Z" finished-at="2015-10-06T13:30:17Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:210)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:70)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:44)
+	at spi.pom.Samples_Page.<init>(Samples_Page.java:25)
+	at spi.prod.testcases.FailTestCaseExample.run(FailTestCaseExample.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:spi.prod.testcases.FailTestCaseExample@129a8472]" name="afterMethod" is-config="true" duration-ms="1087" started-at="2015-10-06T13:30:17Z" finished-at="2015-10-06T13:30:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- spi.prod.testcases.FailTestCaseExample -->
+      <class name="spi.prod.testcases.VerifyMenuLinks_01">
+        <test-method status="FAIL" signature="beforeMethod()[pri:0, instance:spi.prod.testcases.VerifyMenuLinks_01@5ba23b66]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-10-06T13:30:18Z" finished-at="2015-10-06T13:30:18Z">
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'USCWVIQADW0025', ip: '10.32.10.120', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'USCWVIQADW0025', ip: '10.32.10.120', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:319)
+	at spi.utility.Wrapper.getURL(Wrapper.java:29)
+	at spi.prod.testcases.TestCaseBase01.beforeMethod(TestCaseBase01.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="run01()[pri:0, instance:spi.prod.testcases.VerifyMenuLinks_01@5ba23b66]" name="run01" duration-ms="0" started-at="2015-10-06T13:30:21Z" finished-at="2015-10-06T13:30:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run01 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:spi.prod.testcases.VerifyMenuLinks_01@5ba23b66]" name="afterMethod" is-config="true" duration-ms="1077" started-at="2015-10-06T13:30:21Z" finished-at="2015-10-06T13:30:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- spi.prod.testcases.VerifyMenuLinks_01 -->
+      <class name="spi.prod.testcases.NewTestCase">
+        <test-method status="SKIP" signature="run02()[pri:0, instance:spi.prod.testcases.NewTestCase@1b0375b3]" name="run02" duration-ms="1" started-at="2015-10-06T13:30:23Z" finished-at="2015-10-06T13:30:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run02 -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:spi.prod.testcases.NewTestCase@1b0375b3]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-10-06T13:30:23Z" finished-at="2015-10-06T13:30:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:spi.prod.testcases.NewTestCase@1b0375b3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-10-06T13:30:23Z" finished-at="2015-10-06T13:30:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- spi.prod.testcases.NewTestCase -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- SPI_SanityTestSuite1 -->
+</testng-results>

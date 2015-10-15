@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SPI_SanityTestSuite1]">
+  <test name="Regression1(failed)">
+    <classes>
+      <class name="spi.prod.testcases.VerifyMenuLinks_01">
+        <methods>
+          <include name="run01"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- spi.prod.testcases.VerifyMenuLinks_01 -->
+      <class name="spi.prod.testcases.FailTestCaseExample">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="run"/>
+        </methods>
+      </class> <!-- spi.prod.testcases.FailTestCaseExample -->
+      <class name="spi.prod.testcases.NewTestCase">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="run02"/>
+        </methods>
+      </class> <!-- spi.prod.testcases.NewTestCase -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [SPI_SanityTestSuite1] -->
